@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>{{ page.title }} | {{ site.name }} </title>
+  <meta name="viewport" content="width=device-width">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="/css/main.css">
+
+  <!-- favicon setup? -->
+  <link href="favicon.ico" type="image/ico" rel="icon" />
+</head>
+<body>
+
+  <div class="site">
+    <div class="header clearfix">
+      <a href="/"><img src="/images/Logo_full.jpg" align="left" /></a>
+      <div class="topnav">
+        <ul>
+          {% for page in site.data.pages.main %}
+          <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+
+    {% if page.title != "Home" %}
+    <div class="orangeline"></div>
+    {% endif %}
+
+    {{ content }}
+
+    <div class="footer">
+      <div class="contact">
+        <p>
+          Copyright 2014 Princeton University Orchestra <br />
+          Design by Ben Parks '17
+        </p>
+      </div>
+      <div class="contact">
+        <p>
+          <a href="music.princeton.edu">music.princeton.edu</a><br />
+        </p>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>

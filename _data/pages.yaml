@@ -1,0 +1,10 @@
+main:
+    - title: Home
+    - title: About
+      url:   about
+    - title: Season
+      url:   season
+    - title: Contact
+      url:   contact
+    - title: Students
+      url:   students
