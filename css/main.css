@@ -15,8 +15,6 @@ html, body { height: 100%; }
 body {
   background-color: #FFF;
   font: 16px Helvetica, Arial, sans-serif;
-  font-size: small;
-  text-align: center;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -139,7 +137,99 @@ div.topnav a {
   color: black;
 }
 
+/*********************************************************/
+/* About side menu */
+div.about.nav {
+  display:inline-block;
+  vertical-align: top;
+  font-size: 1.5em;
+  letter-spacing: 0.05em;
+  font-weight: 100;
+}
 
+div.about.nav ul {
+  margin: 1.5em;
+  padding: 0;
+
+}
+
+div.about.nav li {
+  padding-left: .5em;
+  margin-bottom: .25em;
+  display: block;
+  position: relative;
+}
+
+div.about.nav a {
+  text-decoration: none;
+  color: black;
+}
+
+div.about.nav li span {
+  height: 100%;
+  width: 1px;
+  background-color: #ff7e2e;
+  position: absolute;
+  right: 100%;
+  transition: width .2s;
+}
+
+div.about.nav li:hover span {
+  width: 4px;
+}
+
+/*********************************************************/
+/* Content divs */
+
+div.content h2 {
+  font-weight: 100;
+  font-size: 2em;
+  margin: .5em 0;
+}
+
+div.content img {
+  margin-right: 1.5em;
+  margin-bottom: 1em;
+  margin-top: .25em;
+}
+
+div.content {
+  margin: 0;
+  padding-left: 2em;
+  display: inline-block;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+div.content a  {
+  color: #E05D0B;
+  white-space: nowrap;
+}
+
+div.content.left {
+  width: 50%;
+  padding-top: 0;
+}
+
+div.content.center {
+  width: 60%;
+}
+
+div.content.right {
+  width: 40%;
+  vertical-align: top;
+}
+
+/*********************************************************/
+/* Miscellaneous */
+
+.members div { /* Used to make the two columns for the members page */
+  display: inline-block;
+  width: 49%;
+}
+
+.members h3 {
+  padding: .25em 0;
+}
 
 .title {
   display: inline-block;

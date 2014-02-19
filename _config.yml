@@ -1,3 +1,5 @@
 name: Princeton University Orchestra
-markdown: maruku
-pygments: true
+markdown: redcarpet
+pygments: false
+
+relative-permalinks: false
