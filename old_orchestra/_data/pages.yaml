@@ -1,0 +1,16 @@
+main:
+    - title: Home
+    - title: About
+      url:   about/orchestra
+    - title: Season
+      url:   season
+    - title: Contact
+      url:   contact
+    - title: Students
+      url:   students	
+
+about:
+    - title: Orchestra
+    - title: Conductor
+    - title: Members
+    - title: Repertory

@@ -1,0 +1,23 @@
+---
+layout: about
+title: Members
+---
+
+<h2>Members</h2>
+
+{% for item in site.data.members %}
+	<h2>{{ item.category }}</h2>
+	<div class="members">
+	{% for instrument in item.instruments %}
+		<h3>{{ instrument.instrument }}</h3>
+		{% for member in instrument.members %}
+			<div>
+				{{ member.name }} 
+				{% if member.year %}
+					'{{ member.year }}
+				{% endif %} 
+			</div>
+		{% endfor %}
+	{% endfor %}
+	</div>
+{% endfor %}
