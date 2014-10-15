@@ -20,7 +20,7 @@
       <div class="topnav">
         <ul>
           {% for page in site.data.pages.main %}
-          <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
+          <li><a href="{{site.data.pages.root}}/{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
         </ul>
       </div>

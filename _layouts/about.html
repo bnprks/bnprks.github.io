@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="about nav">
+	<ul>
+		{% for link in site.data.pages.about %}
+                <li><span></span><a href="{{ site.data.pages.root  }}/about/{{ link.title | downcase }}"
+			>{{ link.title }}</a></li>
+		{% endfor %}
+	</ul>
+</div>
+<div class="content center">
+	{{ content }}
+</div>
