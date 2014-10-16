@@ -7,20 +7,19 @@
   <meta name="viewport" content="width=device-width">
 
   <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="{{site.baseurl}}/css/main.css" />
 
   <!-- favicon setup? -->
-  <link href="favicon.ico" type="image/ico" rel="icon" />
+  <link href="{{site.baseurl}}/favicon.ico" type="image/ico" rel="icon" />
 </head>
 <body>
-
   <div class="site">
     <div class="header clearfix">
-        <a href="/"><img src="images/Logo_full.jpg" align="left" /></a>
+        <a href="/"><img src="{{site.baseurl}}/images/Logo_full.jpg" align="left" /></a>
       <div class="topnav">
         <ul>
           {% for page in site.data.pages.main %}
-          <li><a href="/{{ page.url }}">{{ page.title }}</a></li>
+          <li><a href="{{ site.baseurl }}/{{ page.url }}">{{ page.title }}</a></li>
           {% endfor %}
         </ul>
       </div>

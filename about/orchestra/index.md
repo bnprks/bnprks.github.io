@@ -6,7 +6,7 @@ title: Orchestra
 About the Orchestra
 -------------------
 
-<img src="/images/richardson.jpg" align="left" />
+<img src="{{site.baseurl}}/images/richardson.jpg" align="left" />
 The Princeton University Orchestra is made up of Princeton undergraduate and graduate student musicians. Now in its 116th year, the orchestra plays a wide range of works by composers from the Classical period up through freshly-composed works by Princeton composers. Conducted for the 35th year by Michael Pratt, the Orchestra is continuing its tradition of fine musicmaking in its 2012-2013 season.
 
 The orchestra began with a group of professional musicians from the New York Symphony and Philharmonic Societies who performed a series of concerts at Alexander Hall in 1896, the first on February 13. The proceeds were "devoted to the funds for the establishment of a School of Music for the study of Musical Composition, Theory, and History at Princeton University." In the ensuing century, the orchestra has come to be an almost exclusively student organization; some 90 - 100 undergraduate and graduate musicians representing a broad spectrum of academic departments come together for concerts in Richardson Auditorium in Alexander Hall. Under the direction of Michael Pratt since 1977, the orchestra has played some of the most ambitious works in the symphonic and operatic repertory, including Mahler's Das Lied von der Erde, and Symphonies 1, 2, 3, 4, and 5; Stravinsky's Le Sacre du Printemps, Weber's Der Freischütz and Wagner's Tristan und Isolde in a concert version. The Princeton Orchestra has also taken successful tours of the United States, the United Kingdom, the Czech Republic, Austria, Slovakia, Poland, Hungary, Spain and Portugal.

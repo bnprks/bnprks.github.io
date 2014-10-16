@@ -5,7 +5,7 @@ layout: default
 <div class="about nav">
 	<ul>
 		{% for link in site.data.pages.about %}
-		<li><span></span><a href="/about/{{ link.title | downcase }}"
+		<li><span></span><a href="{{ site.baseurl }}/about/{{ link.title | downcase }}"
 			>{{ link.title }}</a></li>
 		{% endfor %}
 	</ul>
