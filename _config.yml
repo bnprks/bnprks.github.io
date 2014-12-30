@@ -5,6 +5,7 @@ email: ceo@benparks.net
 description: "Ben Parks is a violist and programmer currently attending Princeton University. This is his website."
 baseurl: ""
 url: "http://benparks.net"
+username: "bnprks"
 
 # Build settings
 markdown: kramdown
