@@ -1,7 +1,7 @@
 ---
-layout: about
+layout: post
 title:  "Welcome to Jekyll!"
-date:   2014-02-11 15:36:30
+date:   2014-12-29 21:52:13
 categories: jekyll update
 ---
 
@@ -20,9 +20,5 @@ print_hi('Tom')
 
 Check out the [Jekyll docs][jekyll] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll's GitHub repo][jekyll-gh].
 
-And here's a big ol' image:
-
-Beforetext![test img](/images/Logo_full.jpg) More text?
-
-[jekyll-gh]: https://github.com/mojombo/jekyll
+[jekyll-gh]: https://github.com/jekyll/jekyll
 [jekyll]:    http://jekyllrb.com
