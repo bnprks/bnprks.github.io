@@ -90,6 +90,7 @@ table.contact {
 
 table.contact td {
 	padding: 0 5px;
+  width: 200px;
 }
 
 table.contact td:first-child {
