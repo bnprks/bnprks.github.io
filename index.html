@@ -1,22 +1,14 @@
 ---
-layout: default
+layout: front
+title: Home
+permalink: /
 ---
 
-<div class="home">
-	<h1>Hello, World!</h1>
-	<p>This is the website of Ben Parks. As you can see, we still have not mastered the sticky footer. Oh well.</p>
-	<p>I might post some projects here later...</p>
-<!--   <h1>Posts</h1>
 
-  <ul class="posts">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
- -->
+<div class="text-center">    
+  <img class="circular" src="/ben.jpg" >
+  <table class="contact">
+  	<tr><td>email</td><td><a href="mailto:{{site.email}}">{{site.email}}</a></td></tr>
+  	<tr><td>github</td><td><a href="https://github.com/{{site.github}}">{{site.github}}</a></td></tr>
+  </table>
 </div>
