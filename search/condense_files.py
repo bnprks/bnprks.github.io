@@ -23,4 +23,4 @@ for s in scripts:
 	del s['src']
 	s.string = script
 
-open('build.html', 'w').write(soup.prettify())
+open('index.html', 'w').write(soup.prettify())

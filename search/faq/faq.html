@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+	<link href="/search/bootstrap.css" rel="stylesheet" />
+	<link href="/search/index.css" rel="stylesheet" />
+</head>
+<body>
+	<div id="main">
+		<div>
+			<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+				<div class="container-fluid">
+					<div class="navbar-header">
+						<span class="navbar-brand">
+							Fs
+						</span>
+					</div>
+				</div>
+			</nav>
+			<span>
+				<div class="container">
+					<div class="row">
+						<a href="/search/" class="faq-link">Search Home</a>
+					</div>
+					<h1>Advanced Search FAQ</h1>
+					<h2>Introduction</h2>
+					<p>Normally, when you type in a search it will check for matches in all of the available categories. If you want to find someone named Wilson this can be a problem. You can use tags like <b>#name</b> or <b>#major</b> in order to specify what categories you want to search in. Just type a tag like <b>#name</b> and everything between that tag and the next one you type will only match your specified category (in this example names). Everything you type before adding any tags will match all categories as normal.</p>
+
+					<h2>Examples</h2>
+					<p>
+						What's the email address of a Biology major named Wilson from the class of 2016?<br>
+						<pre style="display:inline-block">2016 <b>#major</b> Molecular Biology <b>#name</b> Wilson</pre><br>
+						Which students live in an eating club? <br>
+						<pre style="display:inline-block"><b>#dorm</b> Prospect Ave</pre><br>
+						Who was that junior Econ major from Butler that I met at lunch? <br>
+						<pre style="display:inline-block"><b>#college</b> Butler <b>#major</b> Economics <b>#class</b> 2017</pre><br>
+						How many people in Rocky are from the UK? <br>
+						<pre style="display:inline-block"><b>#country</b> GBR <b>#college</b> Rocky</pre><br>
+					</p>
+
+					<h2>List of available Tags</h2>
+					<p>If you want to do more advanced searches, here are the tags you can use. <br>(Note that there are multiple tags you can use to search for the same category)</p>
+					<div class="col-sm-6">
+					<table class="table">
+						<thead><tr><th>Tags</th><th>Category</th></tr></thead>
+						<tbody>
+							<tr><td><b>#dorm</b>, <b>#room</b></td><td>Dorm room<br></td></tr>
+							<tr><td><b>#name</b></td><td>Full name<br></td></tr>
+							<tr><td><b>#first</b>, <b>#firstname</b></td><td>First name</td></tr>
+							<tr><td><b>#last</b>, <b>#lastname</b></td><td>Last name</td></tr>
+							<tr><td><b>#major</b>, <b>#department</b></td><td>Declared major</td></tr>
+							<tr><td><b>#email</b>, <b>#netid</b></td><td>Email address</td></tr>
+							<tr><td><b>#class</b>, <b>#year</b></td><td>Graduation year</td></tr>
+							<tr><td><b>#college</b>, <b>#rescollege</b></td><td>Residential college</td></tr>
+							<tr><td><b>#home</b>, <b>#hometown</b>, <b>#city</b></td><td>Home town/city</td></tr>
+							<tr><td><b>#state</b></td><td>Home state</td></tr>
+							<tr><td><b>#country</b></td><td>Home country (List of country codes <a href="https://en.wikipedia.org/wiki/ISO_3166-1_alpha-3#Current_codes">here</a>)</td></tr>
+						</tbody>
+					</table></div>
+				</div>
+			</span>
+		</div>
+	</div>
+</body>
+</html>
