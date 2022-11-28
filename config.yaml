@@ -1,0 +1,13 @@
+baseURL: /
+disablePathToLower: true
+languageCode: en-us
+params:
+  name: Ben Parks
+  email: ceo@benparks.net
+  github: bnprks
+  description: "violist and scientist"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true

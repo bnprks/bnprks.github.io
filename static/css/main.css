@@ -1,21 +1,39 @@
 * {
-  margin: 0;
-  padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
-html, body { height: 100%; }
+ul {
+	padding-left: 1em;
+}
+
+li {
+	clear: both;
+	margin-bottom: 1em;
+}
+
+html,
+body {
+	height: 100%;
+}
 
 body {
-  font-family: Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 300;
-  background-color: #FFF;
-  color: #000;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16px;
+	line-height: 1.5;
+	font-weight: 300;
+	background-color: #FFF;
+	color: #000;
 }
 
-a 		    { color: #0088FF; text-decoration: none;}
-a:hover   { color: #22C4FF; }
+a {
+	color: #0088FF;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #22C4FF;
+}
 
 .center {
 	position: relative;
@@ -57,12 +75,12 @@ h1 {
 }
 
 h2 {
-  font-weight: 100;
-  font-size: 2em;
+	font-weight: 100;
+	font-size: 2em;
 }
 
 h3 {
-  font-weight: 300;
+	font-weight: 300;
 }
 
 hr {
@@ -75,16 +93,17 @@ hr {
 	top: -.3em;
 }
 
-.menu > a {
+.menu>a {
 	margin-right: .5em;
 	letter-spacing: .5px;
 }
 
-.header > a {
-	letter-spacing:4px;
-  color: #000;
+.header>a {
+	letter-spacing: 4px;
+	color: #000;
 }
-.header > p {
+
+.header>p {
 	position: relative;
 	top: -.5em;
 }
@@ -97,7 +116,7 @@ table.contact {
 
 table.contact td {
 	padding: 0 5px;
-  width: 200px;
+	width: 200px;
 }
 
 table.contact td:first-child {
