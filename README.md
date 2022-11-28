@@ -1,4 +1,4 @@
-bnprks.github.io
+benparks.net
 ================
 
-My website, and where I put useful reference material
+Hugo-based static personal site
