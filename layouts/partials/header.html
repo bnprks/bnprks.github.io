@@ -1,9 +1,9 @@
 <div class="text-center header">
-  <a href='{{ print .Site.BaseURL "/" }}'><h1>{{ .Site.Params.name }}</h1></a>
+  <a href='{{ print .Site.BaseURL }}'><h1>{{ .Site.Params.name }}</h1></a>
   <p>{{ .Site.Params.description }}</p>
 </div>
 <hr>
 <span class="menu">
-  <a href='{{ print .Site.BaseURL "/" }}'>Home</a> 
-  <a href='{{ print .Site.BaseURL "/projects/" }}'>Projects</a>
+  <a href='{{ print .Site.BaseURL }}'>Home</a> 
+  <a href='{{ print .Site.BaseURL "projects/" }}'>Projects</a>
 </span>

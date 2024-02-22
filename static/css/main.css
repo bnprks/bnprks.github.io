@@ -123,3 +123,21 @@ table.contact td:first-child {
 	text-align: right;
 	margin-right: 5px;
 }
+
+div.project > h2 {
+	margin-bottom: 0.25em;
+}
+img.project {
+	height: 200px;
+	float: left;
+	margin: 0em 1em 1em 0em;
+}
+
+div.project {
+	overflow: auto;
+	margin-bottom: 1em;
+	box-shadow: 5px 5px 20px #eee;
+	padding: 1em;
+	border-radius: 1em;
+	position: relative;
+}

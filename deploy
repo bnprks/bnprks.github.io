@@ -1,4 +1,4 @@
 #!/bin/bash
 
-hugo && rsync -avz --delete public/ oracle_arm:benparks.net/ && \
+hugo -b https://benparks.net && rsync -avz --delete public/ oracle_arm:benparks.net/ && \
 ssh oracle_arm sudo rsync -avz --delete benparks.net/ /srv/public/

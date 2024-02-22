@@ -5,7 +5,7 @@ params:
   name: Ben Parks
   email: ceo@benparks.net
   github: bnprks
-  description: "violist and scientist"
+  description: "progammer, scientist, violist"
 
 markup:
   goldmark:
